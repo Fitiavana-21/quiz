@@ -1,0 +1,11 @@
+<div class="popup-flex">
+  <div>
+    <h1>Fin du Quiz</h1>
+  </div>
+  <div>
+    <h4>
+      <span class="fw-bold">Reponses validées : {{ dialogData.trueResponse }} sur {{dialogData.questionNumber}}</span>
+    </h4>
+  </div>
+  <button class="btn-primary" cdkFocusInitial (click)="onFinish()">Ok</button>
+</div>
